@@ -978,3 +978,36 @@ btn_reset_view.addEventListener('click', () => {
 
 // Punto d'ingresso dell'applicazione: avvia la chiamata fetch iniziale
 caricaViaggio();
+
+// ============================================================
+// ANIMAZIONE SULLO SCROLL (HERO EXIT & APP CONTAINER ENTRANCE)
+// ============================================================
+const heroSection = document.querySelector('.hero-section');
+const heroContent = document.querySelector('.hero-content');
+const appContainer = document.querySelector('.app-container');
+
+function gestisciAnimazioneScroll() {
+  const scrollY = window.scrollY;
+  const heroHeight = heroSection.offsetHeight;
+  const progress = Math.min(1, Math.max(0, scrollY / heroHeight));
+
+  // Animazione di uscita per l'Hero Content (sfuma, sale e si sfoca)
+  if (heroContent) {
+    heroContent.style.opacity = (1 - progress * 1.4).toFixed(2);
+    heroContent.style.transform = `translateY(${scrollY * 0.35}px) scale(${1 - progress * 0.08})`;
+    heroContent.style.filter = `blur(${progress * 10}px)`;
+  }
+
+  // Animazione di entrata per l'App Container (da traslata in basso/sfocata a completamente nitida)
+  if (appContainer) {
+    const appOpacity = Math.min(1, progress * 1.5);
+    const translateY = (1 - progress) * 60; // Parte 60px più in basso
+    
+    appContainer.style.opacity = appOpacity.toFixed(2);
+    appContainer.style.transform = `translateY(${translateY}px)`;
+  }
+}
+
+window.addEventListener('scroll', gestisciAnimazioneScroll);
+// Esegui un primo controllo subito per impostare le posizioni corrette
+gestisciAnimazioneScroll();
