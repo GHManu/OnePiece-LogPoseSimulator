@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dettagli Isola</title>
+  <link rel="stylesheet" href="/Frontend/style.css">
+  <style>
+    body {
+      padding: 30px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .pagina-dettagli {
+      max-width: 700px;
+      width: 100%;
+      background: radial-gradient(ellipse at 30% 20%, var(--oceano-chiaro), var(--oceano) 55%, var(--abisso) 100%);
+      color:var(--oro);
+      padding: 28px;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .pagina-dettagli h1 {
+      margin-top: 0;
+      color:var(--oro-forte);
+      border-bottom: 3px solid #4CAF50;
+      padding-bottom: 10px;
+    }
+    .pagina-dettagli .row {
+      display: flex;
+      padding: 10px 0;
+      border-bottom: 1px solid #ecf0f1;
+    }
+    .pagina-dettagli .label {
+      font-weight: 600;
+      min-width: 140px;
+      color:var(--oro-forte);
+    }
+    .pagina-dettagli .value {
+      flex: 1;
+      color:var(--oro);
+    }
+    .btn-indietro {
+      margin-top: 20px;
+      padding: 10px 14px;
+      border: none;
+      border-radius: 4px;
+      background: linear-gradient(180deg, var(--oro-forte), var(--oro));
+      color: #2a1c08;
+      cursor: pointer;
+      font-family: "Palatino Linotype", serif;
+    }
+    .btn-indietro:hover {
+      filter: brightness(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="pagina-dettagli">
+    <h1 id="titolo">Dettagli isola</h1>
+    <div class="row"><div class="label">Nome:</div><div class="value" id="nome"></div></div>
+    <div class="row"><div class="label">Tipo:</div><div class="value" id="tipo"></div></div>
+    <div class="row"><div class="label">Pericolo:</div><div class="value" id="pericolo"></div></div>
+    <div class="row"><div class="label">Personaggio:</div><div class="value" id="personaggio"></div></div>
+    <button class="btn-indietro" type="button" onclick="tornaAllaMappa(event)">← Torna indietro</button>
+  </div>
+
+  <script>
+    function tornaAllaMappa(e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+
+      if (window.opener && !window.opener.closed) {
+        window.close();
+      } else if (window.history.length > 1 && document.referrer.includes('/Frontend/grandline_map.html')) {
+        window.history.back();
+      } else {
+        window.location.href = '/Frontend/grandline_map.html';
+      }
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('titolo').textContent = '🏝️ ' + params.get('nome') || 'Dettagli isola';
+    document.getElementById('nome').textContent = params.get('nome') || 'N/D';
+    document.getElementById('tipo').textContent = params.get('tipo') || 'N/D';
+    document.getElementById('pericolo').textContent = params.get('pericolo') || 'N/D';
+    document.getElementById('personaggio').textContent = params.get('personaggio') || 'Nessuno';
+  </script>
+</body>
+</html>

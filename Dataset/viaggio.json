@@ -1,0 +1,2362 @@
+{
+  "archi": [
+    {
+      "a": 9,
+      "da": 122,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 122,
+      "da": 121,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 121,
+      "da": 120,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 120,
+      "da": 119,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 119,
+      "da": 118,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 116,
+      "da": 117,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 111,
+      "da": 116,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 118,
+      "da": 115,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 115,
+      "da": 114,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 114,
+      "da": 113,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 113,
+      "da": 112,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 112,
+      "da": 111,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 108,
+      "da": 110,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 110,
+      "da": 109,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 107,
+      "da": 108,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 117,
+      "da": 107,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 106,
+      "da": 105,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 105,
+      "da": 104,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 101,
+      "da": 103,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 109,
+      "da": 102,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 104,
+      "da": 101,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 102,
+      "da": 100,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 100,
+      "da": 99,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 103,
+      "da": 98,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 99,
+      "da": 97,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 97,
+      "da": 96,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 98,
+      "da": 95,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 95,
+      "da": 94,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 94,
+      "da": 93,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 93,
+      "da": 92,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 92,
+      "da": 91,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 91,
+      "da": 90,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 0,
+      "da": 89,
+      "giorni": 8,
+      "magnetismo": 12.5,
+      "pericolo_base": 0
+    },
+    {
+      "a": 87,
+      "da": 88,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 84,
+      "da": 87,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 53,
+      "da": 86,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 88,
+      "da": 85,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 83,
+      "da": 84,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 46,
+      "da": 83,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 38,
+      "da": 82,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 82,
+      "da": 81,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 81,
+      "da": 80,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 76,
+      "da": 79,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 79,
+      "da": 78,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 78,
+      "da": 77,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 75,
+      "da": 76,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 74,
+      "da": 75,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 72,
+      "da": 74,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 0,
+      "da": 73,
+      "giorni": 6,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 71,
+      "da": 72,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 70,
+      "da": 71,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 69,
+      "da": 70,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 68,
+      "da": 69,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 67,
+      "da": 68,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 35,
+      "da": 67,
+      "giorni": 5,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 51,
+      "da": 66,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 32,
+      "da": 65,
+      "giorni": 10,
+      "magnetismo": 10.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 15,
+      "da": 64,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 62,
+      "da": 63,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 27,
+      "da": 62,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 30,
+      "da": 61,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 59,
+      "da": 60,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 29,
+      "da": 59,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 28,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 63,
+      "da": 28,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 27,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 16,
+      "da": 27,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 26,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 25,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 24,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 60,
+      "da": 24,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 23,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 65,
+      "da": 23,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 22,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 21,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 20,
+      "da": 19,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 19,
+      "da": 18,
+      "giorni": 6,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 18,
+      "da": 17,
+      "giorni": 5,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 15,
+      "da": 16,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 17,
+      "da": 16,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 64,
+      "da": 16,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 16,
+      "da": 15,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 18,
+      "da": 15,
+      "giorni": 6,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 8,
+      "da": 15,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 15,
+      "da": 14,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 12,
+      "da": 13,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 11,
+      "da": 13,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 14,
+      "da": 13,
+      "giorni": 5,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 28,
+      "da": 13,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 1,
+      "da": 0,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 90,
+      "da": 0,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 2,
+      "da": 1,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 3,
+      "da": 2,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 4,
+      "da": 3,
+      "giorni": 5,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 5,
+      "da": 4,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 6,
+      "da": 4,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 4,
+      "da": 5,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 6,
+      "da": 5,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 7,
+      "da": 6,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 6,
+      "da": 7,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 8,
+      "da": 7,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 7,
+      "da": 8,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 9,
+      "da": 8,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 23,
+      "da": 8,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 9,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 49,
+      "da": 9,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 21,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 22,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 23,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 24,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 25,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 26,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 27,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 28,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 29,
+      "da": 10,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 11,
+      "da": 10,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 12,
+      "da": 10,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 11,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 12,
+      "da": 11,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 13,
+      "da": 12,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 10,
+      "da": 29,
+      "giorni": 730,
+      "magnetismo": 0.13698630034923553,
+      "pericolo_base": 0
+    },
+    {
+      "a": 61,
+      "da": 29,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 31,
+      "da": 30,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 33,
+      "da": 31,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 13,
+      "da": 33,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 80,
+      "da": 34,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 34,
+      "da": 35,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 39,
+      "da": 36,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 36,
+      "da": 37,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 37,
+      "da": 38,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 73,
+      "da": 39,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 66,
+      "da": 40,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 0,
+      "da": 41,
+      "giorni": 7,
+      "magnetismo": 14.285714149475098,
+      "pericolo_base": 0
+    },
+    {
+      "a": 50,
+      "da": 42,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 42,
+      "da": 43,
+      "giorni": 4,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 43,
+      "da": 44,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 40,
+      "da": 45,
+      "giorni": 5,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 89,
+      "da": 46,
+      "giorni": 5,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 0,
+      "da": 47,
+      "giorni": 6,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 54,
+      "da": 48,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 58,
+      "da": 49,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 45,
+      "da": 50,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 52,
+      "da": 51,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 41,
+      "da": 52,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 85,
+      "da": 53,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 55,
+      "da": 54,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 56,
+      "da": 55,
+      "giorni": 1,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 57,
+      "da": 56,
+      "giorni": 3,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 47,
+      "da": 57,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 24,
+      "da": 58,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 25,
+      "da": 58,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    },
+    {
+      "a": 26,
+      "da": 58,
+      "giorni": 2,
+      "magnetismo": 15.0,
+      "pericolo_base": 0
+    }
+  ],
+  "ciurma": {
+    "membri": [
+      "Rufy",
+      "Zoro",
+      "Sanji",
+      "Nami",
+      "Usopp",
+      "Jinbe",
+      "Franky",
+      "Nico Robin",
+      "Chopper",
+      "Brook"
+    ],
+    "salute": 85
+  },
+  "isole": [
+    {
+      "id": 126,
+      "nome": "Isola Gyojin",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1084.0,
+      "y": 260.0
+    },
+    {
+      "id": 125,
+      "nome": "Isola Toroa",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 305.0,
+      "y": 392.0
+    },
+    {
+      "id": 124,
+      "nome": "80° Base",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 261.0,
+      "y": 434.0
+    },
+    {
+      "id": 123,
+      "nome": "Regno Di Irsha",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 168.0,
+      "y": 335.0
+    },
+    {
+      "id": 122,
+      "nome": "Impel Down",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1015.0,
+      "y": 300.0
+    },
+    {
+      "id": 121,
+      "nome": "Isola Delle Capre",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1051.0,
+      "y": 289.0
+    },
+    {
+      "id": 120,
+      "nome": "G-1",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1057.0,
+      "y": 274.0
+    },
+    {
+      "id": 119,
+      "nome": "Isola Kenzan",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1016.0,
+      "y": 227.0
+    },
+    {
+      "id": 118,
+      "nome": "Isola Namakura",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "Brook",
+      "tipo": "Sconosciuta",
+      "x": 1007.0,
+      "y": 231.0
+    },
+    {
+      "id": 117,
+      "nome": "St. Poplar",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 946.0,
+      "y": 238.0
+    },
+    {
+      "id": 116,
+      "nome": "St. Faldo",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 954.0,
+      "y": 252.0
+    },
+    {
+      "id": 115,
+      "nome": "NavaroneCorona",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 989.0,
+      "y": 288.0
+    },
+    {
+      "id": 114,
+      "nome": "Isola Della Corona",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 922.0,
+      "y": 285.0
+    },
+    {
+      "id": 113,
+      "nome": "Ukkari",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 953.0,
+      "y": 284.0
+    },
+    {
+      "id": 112,
+      "nome": "Guanhao",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 949.0,
+      "y": 276.0
+    },
+    {
+      "id": 111,
+      "nome": "Pucci",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 938.0,
+      "y": 267.0
+    },
+    {
+      "id": 110,
+      "nome": "Samua",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 898.0,
+      "y": 274.0
+    },
+    {
+      "id": 109,
+      "nome": "Mamana",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 896.0,
+      "y": 284.0
+    },
+    {
+      "id": 108,
+      "nome": "Banaro",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 902.0,
+      "y": 244.0
+    },
+    {
+      "id": 107,
+      "nome": "Karson",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 929.0,
+      "y": 231.0
+    },
+    {
+      "id": 106,
+      "nome": "Lunes",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 832.0,
+      "y": 258.0
+    },
+    {
+      "id": 105,
+      "nome": "Isola Momoiro",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "Sanji",
+      "tipo": "Transformati",
+      "x": 834.0,
+      "y": 242.0
+    },
+    {
+      "id": 104,
+      "nome": "G-2",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 835.0,
+      "y": 225.0
+    },
+    {
+      "id": 103,
+      "nome": "Regno Di Lulusia",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 815.0,
+      "y": 237.0
+    },
+    {
+      "id": 102,
+      "nome": "Partia",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 805.0,
+      "y": 287.0
+    },
+    {
+      "id": 101,
+      "nome": "Hannabal",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 785.0,
+      "y": 239.0
+    },
+    {
+      "id": 100,
+      "nome": "Omatsuri",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 778.0,
+      "y": 282.0
+    },
+    {
+      "id": 99,
+      "nome": "Regno Di Sakura",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 744.0,
+      "y": 276.0
+    },
+    {
+      "id": 98,
+      "nome": "Isola Karakuri",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "Franky",
+      "tipo": "Tecnologica",
+      "x": 749.0,
+      "y": 235.0
+    },
+    {
+      "id": 97,
+      "nome": "Isola Del Nulla",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 746.0,
+      "y": 262.0
+    },
+    {
+      "id": 96,
+      "nome": "Isola Kulka",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 708.0,
+      "y": 266.0
+    },
+    {
+      "id": 95,
+      "nome": "Fireworks",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 694.0,
+      "y": 238.0
+    },
+    {
+      "id": 94,
+      "nome": "Aska",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 638.0,
+      "y": 234.0
+    },
+    {
+      "id": 93,
+      "nome": "21° Base",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 638.0,
+      "y": 234.0
+    },
+    {
+      "id": 92,
+      "nome": "Isola Spa",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 638.0,
+      "y": 234.0
+    },
+    {
+      "id": 91,
+      "nome": "Isola Cactus",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 671.0,
+      "y": 265.0
+    },
+    {
+      "id": 90,
+      "nome": "Isola Fullshout",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 639.0,
+      "y": 284.0
+    },
+    {
+      "id": 89,
+      "nome": "Regno Di Torino",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "Chopper",
+      "tipo": "",
+      "x": 938.0,
+      "y": 344.0
+    },
+    {
+      "id": 88,
+      "nome": "Isola Samba",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 916.0,
+      "y": 428.0
+    },
+    {
+      "id": 87,
+      "nome": "Black Drum",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 891.0,
+      "y": 396.0
+    },
+    {
+      "id": 86,
+      "nome": "Roshwan",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 781.0,
+      "y": 445.0
+    },
+    {
+      "id": 85,
+      "nome": "regno Di Sorbet",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 791.0,
+      "y": 406.0
+    },
+    {
+      "id": 84,
+      "nome": "Santa Urea",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 733.0,
+      "y": 375.0
+    },
+    {
+      "id": 83,
+      "nome": "Regno di Briss",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 648.0,
+      "y": 372.0
+    },
+    {
+      "id": 82,
+      "nome": "Frauce",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1046.0,
+      "y": 201.0
+    },
+    {
+      "id": 81,
+      "nome": "Warship",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1050.0,
+      "y": 166.0
+    },
+    {
+      "id": 80,
+      "nome": "16° Base",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 1013.0,
+      "y": 161.0
+    },
+    {
+      "id": 79,
+      "nome": "77° Base",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 954.0,
+      "y": 24.0
+    },
+    {
+      "id": 78,
+      "nome": "Isola Yotsuba",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 990.0,
+      "y": 50.0
+    },
+    {
+      "id": 77,
+      "nome": "Isola Dawn",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 994.0,
+      "y": 70.0
+    },
+    {
+      "id": 76,
+      "nome": "Isola Goat",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 965.0,
+      "y": 80.0
+    },
+    {
+      "id": 75,
+      "nome": "Isola Degli Animali Strani",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 860.0,
+      "y": 103.0
+    },
+    {
+      "id": 74,
+      "nome": "Isola Organ",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 862.0,
+      "y": 87.0
+    },
+    {
+      "id": 73,
+      "nome": "Isola Ghecco",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 827.0,
+      "y": 115.0
+    },
+    {
+      "id": 72,
+      "nome": "Arcipelago Konomi",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 754.0,
+      "y": 87.0
+    },
+    {
+      "id": 71,
+      "nome": "Isola Kumate",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 710.0,
+      "y": 94.0
+    },
+    {
+      "id": 70,
+      "nome": "Ombelico dell'Oceano",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 668.0,
+      "y": 83.0
+    },
+    {
+      "id": 69,
+      "nome": "Isola Cozia",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 657.0,
+      "y": 129.0
+    },
+    {
+      "id": 68,
+      "nome": "8° Base",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 617.0,
+      "y": 154.0
+    },
+    {
+      "id": 67,
+      "nome": "Isola Polestar",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 603.0,
+      "y": 188.0
+    },
+    {
+      "id": 66,
+      "nome": "Germa 66",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 354.0,
+      "y": 112.0
+    },
+    {
+      "id": 65,
+      "nome": "Loadstar",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 428.0,
+      "y": 267.0
+    },
+    {
+      "id": 64,
+      "nome": "Beehive Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 364.0,
+      "y": 276.0
+    },
+    {
+      "id": 63,
+      "nome": "Doerena Kingdom",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 321.0,
+      "y": 229.0
+    },
+    {
+      "id": 62,
+      "nome": "Broccoli Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 306.0,
+      "y": 244.0
+    },
+    {
+      "id": 61,
+      "nome": "Mogaro Kingdom",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 231.0,
+      "y": 286.0
+    },
+    {
+      "id": 60,
+      "nome": "Foodvalten",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 173.0,
+      "y": 234.0
+    },
+    {
+      "id": 59,
+      "nome": "Majiatsuka Kingdo",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 178.0,
+      "y": 286.0
+    },
+    {
+      "id": 28,
+      "nome": "Sphinx Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Montagna",
+      "x": 218.0,
+      "y": 228.0
+    },
+    {
+      "id": 27,
+      "nome": "Yukiryu Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Invernale",
+      "x": 288.0,
+      "y": 237.0
+    },
+    {
+      "id": 26,
+      "nome": "Mystoria Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Misteriosa",
+      "x": 96.0,
+      "y": 260.0
+    },
+    {
+      "id": 25,
+      "nome": "Risky Red Island",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Pericolosa",
+      "x": 79.0,
+      "y": 240.0
+    },
+    {
+      "id": 24,
+      "nome": "Raijin Island",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Elettrica",
+      "x": 80.0,
+      "y": 274.0
+    },
+    {
+      "id": 23,
+      "nome": "Baltigo",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "Robin",
+      "tipo": "Base segreta",
+      "x": 352.0,
+      "y": 239.0
+    },
+    {
+      "id": 22,
+      "nome": "Boin Archipelago",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "Usopp",
+      "tipo": "Nuvole",
+      "x": 882.0,
+      "y": 231.0
+    },
+    {
+      "id": 21,
+      "nome": "Weatheria",
+      "pericolo_base": 1,
+      "pericolo_effettivo": 1,
+      "personaggio": "Nami",
+      "tipo": "Meteorologica",
+      "x": 982.0,
+      "y": 210.0
+    },
+    {
+      "id": 20,
+      "nome": "Kuraigana Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "Zoro",
+      "tipo": "Rovine",
+      "x": 1030.0,
+      "y": 268.0
+    },
+    {
+      "id": 19,
+      "nome": "Rusukaina Island",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "Rufy",
+      "tipo": "Allenamento",
+      "x": 923.0,
+      "y": 297.0
+    },
+    {
+      "id": 18,
+      "nome": "Elbaf",
+      "pericolo_base": 5,
+      "pericolo_effettivo": 5,
+      "personaggio": "",
+      "tipo": "Giganti",
+      "x": 426.0,
+      "y": 233.0
+    },
+    {
+      "id": 17,
+      "nome": "Egghead",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 14,
+      "personaggio": "",
+      "tipo": "Scientifica",
+      "x": 382.0,
+      "y": 232.0
+    },
+    {
+      "id": 16,
+      "nome": "Wano",
+      "pericolo_base": 5,
+      "pericolo_effettivo": 5,
+      "personaggio": "",
+      "tipo": "Feudale",
+      "x": 250.0,
+      "y": 241.0
+    },
+    {
+      "id": 15,
+      "nome": "Whole Cake Island",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Dolciaria",
+      "x": 310.0,
+      "y": 276.0
+    },
+    {
+      "id": 14,
+      "nome": "Zou",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Elefante",
+      "x": 258.0,
+      "y": 263.0
+    },
+    {
+      "id": 13,
+      "nome": "Dressrosa",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Iberica",
+      "x": 161.0,
+      "y": 267.0
+    },
+    {
+      "id": 0,
+      "nome": "Reverse Mountain",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Ingresso",
+      "x": 528.0,
+      "y": 235.0
+    },
+    {
+      "id": 1,
+      "nome": "Little Garden",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Preistorica",
+      "x": 706.0,
+      "y": 254.0
+    },
+    {
+      "id": 2,
+      "nome": "Alabasta",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Deserto",
+      "x": 782.0,
+      "y": 259.0
+    },
+    {
+      "id": 3,
+      "nome": "Jaya",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Collinare",
+      "x": 838.0,
+      "y": 292.0
+    },
+    {
+      "id": 4,
+      "nome": "Skypiea",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Cielo",
+      "x": 866.0,
+      "y": 282.0
+    },
+    {
+      "id": 5,
+      "nome": "Long Ring Long Land",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Lunga",
+      "x": 866.0,
+      "y": 255.0
+    },
+    {
+      "id": 6,
+      "nome": "Water 7",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 6,
+      "personaggio": "",
+      "tipo": "Acquatica",
+      "x": 920.0,
+      "y": 255.0
+    },
+    {
+      "id": 7,
+      "nome": "Enies Lobby",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 13,
+      "personaggio": "",
+      "tipo": "Giudiziaria",
+      "x": 983.0,
+      "y": 278.0
+    },
+    {
+      "id": 8,
+      "nome": "Thriller Bark",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Orrore",
+      "x": 335.0,
+      "y": 351.0
+    },
+    {
+      "id": 9,
+      "nome": "Sabaody Archipelago",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 10,
+      "personaggio": "",
+      "tipo": "Bolle",
+      "x": 1042.0,
+      "y": 235.0
+    },
+    {
+      "id": 10,
+      "nome": "Amazon Lily",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Primavera",
+      "x": 945.0,
+      "y": 300.0
+    },
+    {
+      "id": 11,
+      "nome": "Marineford",
+      "pericolo_base": 5,
+      "pericolo_effettivo": 17,
+      "personaggio": "",
+      "tipo": "RedLine",
+      "x": 51.0,
+      "y": 255.0
+    },
+    {
+      "id": 12,
+      "nome": "Punk Hazard",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 10,
+      "personaggio": "",
+      "tipo": "Vulcanica",
+      "x": 114.0,
+      "y": 238.0
+    },
+    {
+      "id": 29,
+      "nome": "Prodence Kingdom",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Regno",
+      "x": 204.0,
+      "y": 252.0
+    },
+    {
+      "id": 30,
+      "nome": "Applenine Island",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Mela",
+      "x": 200.0,
+      "y": 275.0
+    },
+    {
+      "id": 31,
+      "nome": "Green Bit",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Giungla",
+      "x": 136.0,
+      "y": 279.0
+    },
+    {
+      "id": 32,
+      "nome": "Laugh Tale",
+      "pericolo_base": 5,
+      "pericolo_effettivo": 5,
+      "personaggio": "",
+      "tipo": "Leggendaria",
+      "x": 388.0,
+      "y": 262.0
+    },
+    {
+      "id": 33,
+      "nome": "Karai Bari Island",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Buggyland",
+      "x": 107.0,
+      "y": 284.0
+    },
+    {
+      "id": 34,
+      "nome": "Shimotsuki Village",
+      "pericolo_base": 1,
+      "pericolo_effettivo": 1,
+      "personaggio": "",
+      "tipo": "Villaggio",
+      "x": 1014.0,
+      "y": 132.0
+    },
+    {
+      "id": 35,
+      "nome": "Baratie",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Ristorante",
+      "x": 784.0,
+      "y": 146.0
+    },
+    {
+      "id": 36,
+      "nome": "Tequila Wolf",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Ponte",
+      "x": 904.0,
+      "y": 199.0
+    },
+    {
+      "id": 37,
+      "nome": "Mirror Ball Island",
+      "pericolo_base": 1,
+      "pericolo_effettivo": 1,
+      "personaggio": "",
+      "tipo": "Città",
+      "x": 873.0,
+      "y": 158.0
+    },
+    {
+      "id": 38,
+      "nome": "Sixis",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Deserta",
+      "x": 948.0,
+      "y": 173.0
+    },
+    {
+      "id": 39,
+      "nome": "Oykot Kingdom",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Regno",
+      "x": 758.0,
+      "y": 184.0
+    },
+    {
+      "id": 40,
+      "nome": "Flevance",
+      "pericolo_base": 4,
+      "pericolo_effettivo": 4,
+      "personaggio": "",
+      "tipo": "Città Bianca",
+      "x": 343.0,
+      "y": 166.0
+    },
+    {
+      "id": 41,
+      "nome": "Spider Miles",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Discarica",
+      "x": 437.0,
+      "y": 124.0
+    },
+    {
+      "id": 42,
+      "nome": "Lvneel Kingdom",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Regno",
+      "x": 125.0,
+      "y": 196.0
+    },
+    {
+      "id": 43,
+      "nome": "Isola Swallow",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Invernale",
+      "x": 186.0,
+      "y": 103.0
+    },
+    {
+      "id": 44,
+      "nome": "Isola Rubeck",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Invernale",
+      "x": 123.0,
+      "y": 65.0
+    },
+    {
+      "id": 45,
+      "nome": "Isola Minion",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Invernale",
+      "x": 277.0,
+      "y": 70.0
+    },
+    {
+      "id": 46,
+      "nome": "Baterilla",
+      "pericolo_base": 2,
+      "pericolo_effettivo": 2,
+      "personaggio": "",
+      "tipo": "Isola",
+      "x": 796.0,
+      "y": 346.0
+    },
+    {
+      "id": 47,
+      "nome": "Ohara",
+      "pericolo_base": 5,
+      "pericolo_effettivo": 5,
+      "personaggio": "",
+      "tipo": "Cultura",
+      "x": 421.0,
+      "y": 368.0
+    },
+    {
+      "id": 48,
+      "nome": "Paese dei Fiori (Kano Kingdom)",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "Orientale",
+      "x": 128.0,
+      "y": 391.0
+    },
+    {
+      "id": 49,
+      "nome": "Mary Geoise",
+      "pericolo_base": 5,
+      "pericolo_effettivo": 5,
+      "personaggio": "",
+      "tipo": "Capitale Sacra",
+      "x": 15.0,
+      "y": 265.0
+    },
+    {
+      "id": 50,
+      "nome": "Isola Nortice",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 203.0,
+      "y": 159.0
+    },
+    {
+      "id": 51,
+      "nome": "Isola Deul",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 430.0,
+      "y": 171.0
+    },
+    {
+      "id": 52,
+      "nome": "Isola Kuen",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 455.0,
+      "y": 153.0
+    },
+    {
+      "id": 53,
+      "nome": "Isola Karate",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 632.0,
+      "y": 436.0
+    },
+    {
+      "id": 54,
+      "nome": "Regno di Ballywood",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 242.0,
+      "y": 369.0
+    },
+    {
+      "id": 55,
+      "nome": "Isola Toroa",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 306.0,
+      "y": 349.0
+    },
+    {
+      "id": 56,
+      "nome": "80° Base",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 306.0,
+      "y": 349.0
+    },
+    {
+      "id": 57,
+      "nome": "Las Camps",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 442.0,
+      "y": 333.0
+    },
+    {
+      "id": 58,
+      "nome": "G-5",
+      "pericolo_base": 3,
+      "pericolo_effettivo": 3,
+      "personaggio": "",
+      "tipo": "",
+      "x": 53.0,
+      "y": 272.0
+    }
+  ],
+  "viaggio": [
+    {
+      "evento": null,
+      "giorno": 0,
+      "isola_id": 0
+    }
+  ]
+}

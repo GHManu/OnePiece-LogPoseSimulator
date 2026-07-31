@@ -1,0 +1,56 @@
+{
+  "nome": "Percorso originale della ciurma dei Pirati di Cappello di Paglia fino a Elbaf",
+  "descrizione": "Sequenza canonica delle tappe principali affrontate dalla ciurma fino a Elbaf.",
+  "archi": [
+    { "da": 0, "a": 1, "giorni": 3, "magnetismo": 15.0 },
+    { "da": 1, "a": 2, "giorni": 4, "magnetismo": 15.0 },
+    { "da": 2, "a": 3, "giorni": 3, "magnetismo": 15.0 },
+    { "da": 3, "a": 4, "giorni": 5, "magnetismo": 15.0 },
+    { "da": 4, "a": 6, "giorni": 4, "magnetismo": 15.0 },
+    { "da": 6, "a": 7, "giorni": 2, "magnetismo": 15.0 },
+    { "da": 7, "a": 9, "giorni": 4, "magnetismo": 15.0 },
+    { "da": 9, "a": 10, "giorni": 3, "magnetismo": 15.0 },
+    { "da": 10, "a": 11, "giorni": 2, "magnetismo": 15.0 },
+    { "da": 11, "a": 12, "giorni": 1, "magnetismo": 15.0 },
+    { "da": 12, "a": 13, "giorni": 1, "magnetismo": 15.0 },
+    { "da": 13, "a": 14, "giorni": 5, "magnetismo": 15.0 },
+    { "da": 14, "a": 15, "giorni": 3, "magnetismo": 15.0 },
+    { "da": 15, "a": 16, "giorni": 4, "magnetismo": 15.0 },
+    { "da": 16, "a": 17, "giorni": 2, "magnetismo": 15.0 },
+    { "da": 17, "a": 18, "giorni": 5, "magnetismo": 15.0 }
+  ],
+  "viaggio": [
+    { "giorno": 0, "isola_id": 0, "evento": "Partenza da Reverse Mountain" },
+    { "giorno": 3, "isola_id": 1, "evento": "Arrivo a Little Garden" },
+    { "giorno": 7, "isola_id": 2, "evento": "Arrivo ad Alabasta" },
+    { "giorno": 10, "isola_id": 3, "evento": "Arrivo a Jaya" },
+    { "giorno": 15, "isola_id": 4, "evento": "Arrivo a Skypiea" },
+    { "giorno": 20, "isola_id": 6, "evento": "Arrivo a Water 7" },
+    { "giorno": 24, "isola_id": 7, "evento": "Arrivo a Enies Lobby" },
+    { "giorno": 31, "isola_id": 9, "evento": "Arrivo a Sabaody Archipelago" },
+    { "giorno": 37, "isola_id": 10, "evento": "Arrivo ad Amazon Lily" },
+    { "giorno": 42, "isola_id": 11, "evento": "Arrivo a Marineford" },
+    { "giorno": 49, "isola_id": 12, "evento": "Arrivo a Punk Hazard" },
+    { "giorno": 57, "isola_id": 13, "evento": "Arrivo a Dressrosa" },
+    { "giorno": 66, "isola_id": 14, "evento": "Arrivo a Zou" },
+    { "giorno": 74, "isola_id": 15, "evento": "Arrivo a Whole Cake Island" },
+    { "giorno": 84, "isola_id": 16, "evento": "Arrivo a Wano" },
+    { "giorno": 94, "isola_id": 17, "evento": "Arrivo a Egghead" },
+    { "giorno": 104, "isola_id": 18, "evento": "Arrivo ad Elbaf" }
+  ],
+  "ciurma": {
+    "salute": 92,
+    "membri": [
+      "Monkey D. Luffy",
+      "Roronoa Zoro",
+      "Nami",
+      "Usopp",
+      "Sanji",
+      "Tony Tony Chopper",
+      "Nico Robin",
+      "Franky",
+      "Brook",
+      "Jinbe"
+    ]
+  }
+}

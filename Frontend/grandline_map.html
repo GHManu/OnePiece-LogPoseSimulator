@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log Pose — Grand Line</title>
+  <link rel="stylesheet" href="/Frontend/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🏴‍☠️ Log Pose - Simulatore Grand Line</h1>
+    <span>🧭l'ago segue sempre il magnetismo più forte</span>
+  </header>
+  <div id="stato-caricamento">Carico viaggio.json...</div>
+
+  <main>
+    <div id="mappa-wrap">
+      <div id="island-details" class="book-details" hidden></div>
+      <canvas id="mappa" width="1160" height="520"></canvas>
+      <div id="tooltip" hidden></div>
+      <div class="hint">💡 USA LA ROTELLINA DEL MOUSE PER FARE ZOOM • TRASCINA PER SPOSTARTI 🗺️</div>
+    </div>
+
+    <div id="pannello">
+      <div>
+        <h2>Nave</h2>
+        <div id="stato">In attesa dei dati...</div>
+      </div>
+
+      <button id="btn-partenza-casuale">Partenza Casuale</button>
+      <button id="btn-carica-percorso-originale">Carica Viaggio Originale Luffy</button>
+      <button id="btn-carica-viaggio-normale">Carica Viaggio Normale</button>
+      <button id="btn-avanza" disabled>Segui il Log Pose 🧭 →</button>
+      <button id="btn-restart" disabled>Restart</button>
+      <button id="btn-reset-view">Azzera Vista</button>
+      <div>
+        <h2>📜Diario di bordo</h2>
+        <div id="diario"></div>
+      </div>
+
+      <div>
+        <h2>Legenda</h2>
+        <div id="legenda">
+          <div class="voce"><span class="puntino" style="background:var(--oro-forte)"></span> Isola principale</div>
+          <div class="voce"><span class="puntino" style="background:var(--timeskip)"></span> Isola del timeskip</div>
+          <div class="voce"><span class="puntino" style="background:var(--allarme)"></span> Alone = presenza Marina</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/Frontend/script.js"></script>
+</body>
+</html>
