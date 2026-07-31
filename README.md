@@ -17,3 +17,4 @@ Ho creato un backend in cpp e python: cpp per creare strutture dati e la logica 
 > Per modificare la mappa, basta modificare lo script image_svg_generator.py e lanciarlo sempre con python3, così crea in automatico un nuovo file.svg
 
 # How To Contribute
+Fai un fork, clonalo in locale, modifica il codice, vai alla seziona sopra "How To Compile" per compilarlo e testarlo e infine apri una Pull Request. 
