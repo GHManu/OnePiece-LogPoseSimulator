@@ -141,9 +141,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  will-change: transform, opacity;
-  transition: opacity 0.1s linear, transform 0.1s linear;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
 }
+
+.app-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 
 header {
   width: 100%;
