@@ -973,6 +973,10 @@ btn_reset_view.addEventListener('click', () => {
   zoomLevel = 1;
   panX = 0;
   panY = 0;
+  if(islandDetails != null){
+    islandDetails.hidden = true;
+    islandDetails.innerHTML = '';
+  }
   disegna();
 });
 

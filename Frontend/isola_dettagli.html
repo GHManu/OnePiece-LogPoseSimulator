@@ -7,16 +7,21 @@
   <link rel="stylesheet" href="/Frontend/style.css">
   <style>
     body {
+      margin: 0;
       padding: 30px;
+      min-height: 100vh;
+      display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
+      box-sizing: border-box;
     }
     .pagina-dettagli {
       max-width: 700px;
-      width: 100%;
+      width: min(90%, 700px);
       background: radial-gradient(ellipse at 30% 20%, var(--oceano-chiaro), var(--oceano) 55%, var(--abisso) 100%);
       color:var(--oro);
       padding: 28px;
+      margin: 0 auto;
       border-radius: 10px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.15);
     }
