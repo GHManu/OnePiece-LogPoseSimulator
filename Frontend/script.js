@@ -44,6 +44,9 @@ const tooltip = document.getElementById('tooltip');
 const islandDetails = document.getElementById('island-details');
 let hoveredIslandId = null;
 let islandSelezionataPerDettagli = null;
+// Evidenziazione temporanea quando si centra la vista su un'isola
+let focusedIslandId = null;
+let focusedPersistent = false;
 
 
 // ============================================================
@@ -406,6 +409,121 @@ function handleCanvasHover(e){
   }
 }
 
+
+
+// ============================================================
+// FUNZIONI PER IL PANNELLO DI RICERCA
+// ============================================================
+
+//funzioni di ricerca per nome dell'isola, utile per il pannello di ricerca
+function ricercaIsolaPerNome(nome){
+  const nomeLower = nome.toLowerCase();
+  return isole.find(isola => isola.nome.toLowerCase() === nomeLower) || null;
+}
+//funzione di ricerca per tipo dell'isola, utile per il pannello di ricerca
+function ricercaIsolaPerTipo(tipo){
+  const tipoLower = tipo.toLowerCase();
+  return isole.find(isola => isola.tipo.toLowerCase() === tipoLower) || null;
+}
+
+//funzione di ricerca per pericolo dell'isola, utile per il pannello di ricerca
+function ricercaIsolaPerPericolo(pericolo){
+  return isole.filter(isola => pericoloEffettivo(isola) === pericolo);
+}
+
+const searchResultsContainer = document.getElementById('results-list');
+
+const searchInputNome = document.getElementById('search-input-nome');
+const searchInputTipo = document.getElementById('search-input-tipo');
+const searchInputPericolo = document.getElementById('search-input-pericolo');
+
+// Renderizza la lista di risultati come nomi cliccabili (unione dei risultati)
+function renderSearchResults(results){
+  searchResultsContainer.innerHTML = '';
+  if(!results || results.length === 0){
+    const li = document.createElement('li');
+    li.textContent = 'Nessun risultato';
+    searchResultsContainer.appendChild(li);
+    return;
+  }
+
+  for(const isola of results){
+    const li = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = '#';
+    link.textContent = isola.nome;
+    // Single click: non avvia animazione, permette selezione futura
+    link.addEventListener('click', (ev) =>{
+      ev.preventDefault();
+      // evidenziazione leggera (opzionale): aggiunge classe 'selected' al risultato
+      searchResultsContainer.querySelectorAll('.selected').forEach(n => n.classList.remove('selected'));
+      li.classList.add('selected');
+      // Porta la pagina al canvas per mostrare la mappa
+      if(typeof canvas !== 'undefined' && canvas && canvas.scrollIntoView){
+        try{ canvas.scrollIntoView({ behavior: 'smooth', block: 'center' }); }catch(e){ window.scrollTo({ top: canvas.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' }); }
+      }
+    });
+    li.appendChild(link);
+
+    // anima la vista verso l'isola (porta prima la pagina al canvas)
+    li.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      if(typeof canvas !== 'undefined' && canvas && canvas.scrollIntoView){
+        try{ canvas.scrollIntoView({ behavior: 'smooth', block: 'center' }); }catch(e){ window.scrollTo({ top: canvas.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' }); }
+      }
+      muoviVisualeVersoDst(isola.id, 700, null, true);
+    });
+
+    searchResultsContainer.appendChild(li);
+  }
+}
+
+// Unisce (union) i risultati delle tre ricerche e li passa al renderer
+function aggiornaRisultatiRicerca(){
+  const nomeVal = (searchInputNome.value || '').trim();
+  const tipoVal = (searchInputTipo.value || '').trim();
+  const pericoloVal = (searchInputPericolo.value || '').trim();
+
+  const map = new Map();
+
+  if(nomeVal){
+    const queryNome = nomeVal.toLowerCase().trim();
+    const perIniziali = isole.filter(i => i.nome.toLowerCase().trim().startsWith(queryNome));
+    if(perIniziali.length > 0){ for(const i of perIniziali) map.set(i.id, i); }
+    const exact = ricercaIsolaPerNome(nomeVal);
+    if(exact) map.set(exact.id, exact);
+  }
+
+  if(tipoVal){
+    // ricercaIsolaPerTipo restituiva un singolo elemento; cerchiamo per occorrenza iniziale
+    const tipoLower = tipoVal.toLowerCase().trim();
+    const valPerIniziali = isole.filter(i => (i.tipo.toLowerCase().trim() || '').startsWith(tipoLower));
+    for(const i of valPerIniziali) map.set(i.id, i);
+    const exactTipo = ricercaIsolaPerTipo(tipoVal);
+    if(exactTipo) map.set(exactTipo.id, exactTipo);
+  }
+
+  if(pericoloVal !== ''){
+    const p = parseInt(pericoloVal);
+    if(!isNaN(p)){
+      const trovate = ricercaIsolaPerPericolo(p) || [];
+      for(const i of trovate) map.set(i.id, i);
+    }
+  }
+
+  const risultati = Array.from(map.values());
+  renderSearchResults(risultati);
+}
+
+// Collega gli eventi agli input per aggiornare la lista in tempo reale
+searchInputNome.addEventListener('input', aggiornaRisultatiRicerca);
+searchInputTipo.addEventListener('input', aggiornaRisultatiRicerca);
+searchInputPericolo.addEventListener('input', aggiornaRisultatiRicerca);
+
+// Inizializza la lista vuota
+renderSearchResults([]);
+
+
 // ============================================================
 // CANVAS E GESTIONE ZOOM/PAN
 // ============================================================
@@ -531,6 +649,37 @@ function disegna(){
         ctx.strokeStyle = 'rgba(240,199,117,0.9)';
         ctx.lineWidth = 3 / zoomLevel;
         ctx.stroke();
+      }
+    }
+
+    // Evidenziazione per l'isola centrata recentemente (anello persistente)
+    if(focusedIslandId != null){
+      const f = isoleById[focusedIslandId];
+      if(f){
+        const fx = f.x + OFFSET_X;
+        const fy = f.y + OFFSET_Y;
+
+        // Se l'evidenziazione è persistente la manteniamo fino a che i dettagli sono mostrati
+        if(focusedPersistent){
+          // Se i dettagli sono ancora visibili per quell'isola e non siamo troppo dezoomati, disegna anello fisso
+          if(islandSelezionataPerDettagli && islandSelezionataPerDettagli.id === focusedIslandId && zoomLevel >= 2.5){
+            ctx.beginPath();
+            ctx.arc(fx, fy, 14 / Math.sqrt(zoomLevel), 0, Math.PI*2);
+            ctx.strokeStyle = 'rgba(255,205,60,0.95)';
+            ctx.lineWidth = 3 / zoomLevel;
+            ctx.stroke();
+
+            const grad = ctx.createRadialGradient(fx, fy, 6, fx, fy, 28);
+            grad.addColorStop(0, 'rgba(255,205,60,0.18)');
+            grad.addColorStop(1, 'rgba(255,205,60,0)');
+            ctx.fillStyle = grad;
+            ctx.beginPath(); ctx.arc(fx, fy, 28, 0, Math.PI*2); ctx.fill();
+          } else {
+            // Se i dettagli non sono più visibili (es. dezoom) rimuoviamo l'evidenziazione persistente
+            focusedPersistent = false;
+            focusedIslandId = null;
+          }
+        }
       }
     }
 
@@ -761,7 +910,7 @@ function apriDettagliIsola(){
   window.open(`/Frontend/isola_dettagli.html?${params.toString()}`, '_blank');
 }
 
-function muoviVisualeVersoDst(destId, durataMs = 900, callback = null){
+function muoviVisualeVersoDst(destId, durataMs = 900, callback = null, showDetails = true){
   // 1. Controlla che l'isola di destinazione esista davvero
   const dest = isoleById[destId];
   if(!dest) return;
@@ -803,11 +952,16 @@ function muoviVisualeVersoDst(destId, durataMs = 900, callback = null){
     if(t < 1) {
       requestAnimationFrame(step);
     } else {
-      // 10. Se l'animazione è terminata, mostra i dettagli dell'isola
-      mostraDettagliIsola(dest);
+      // 10. Se l'animazione è terminata, opzionalmente mostra i dettagli dell'isola
+      if(showDetails) mostraDettagliIsola(dest);
       if(callback) {
         callback();
       }
+
+      // Imposta evidenziazione persistente sull'isola raggiunta
+      focusedIslandId = destId;
+      focusedPersistent = true;
+      queueDraw();
     }
   }
 

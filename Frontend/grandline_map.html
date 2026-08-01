@@ -37,6 +37,26 @@
         <canvas id="mappa" width="1160" height="520"></canvas>
         <div id="tooltip" hidden></div>
         <div class="hint">💡 USA LA ROTELLINA DEL MOUSE PER FARE ZOOM • TRASCINA PER SPOSTARTI 🗺️</div>
+        <br/>
+        <!-- Campo di ricerca -->
+        <div class="search-container">
+            <label for="search-input-nome">Cerca per nome:</label>
+            <input type="search" id="search-input-nome" placeholder="Cerca nome...">
+
+            <label for="search-input-pericolo">Cerca per pericolo:</label>
+            <input type="search" id="search-input-pericolo" placeholder="Cerca pericolo...">
+
+            <label for="search-input-tipo">Cerca per tipo:</label>
+            <input type="search" id="search-input-tipo" placeholder="Cerca tipo...">
+
+            <!-- Riquadro dei risultati -->
+            <div id="results-box" class="results-box">
+              <ul id="results-list">
+                <!-- Generati da JS -->
+              </ul>
+            </div>
+        </div>
+
       </div>
 
       <div id="pannello">
