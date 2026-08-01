@@ -440,8 +440,10 @@ const searchInputPericolo = document.getElementById('search-input-pericolo');
 // Renderizza la lista di risultati come nomi cliccabili (unione dei risultati)
 function renderSearchResults(results){
   searchResultsContainer.innerHTML = '';
+  
   if(!results || results.length === 0){
     const li = document.createElement('li');
+    li.className = 'no-results';
     li.textContent = 'Nessun risultato';
     searchResultsContainer.appendChild(li);
     return;
@@ -449,28 +451,35 @@ function renderSearchResults(results){
 
   for(const isola of results){
     const li = document.createElement('li');
-    const link = document.createElement('a');
-    link.href = '#';
-    link.textContent = isola.nome;
-    // Single click: non avvia animazione, permette selezione futura
-    link.addEventListener('click', (ev) =>{
-      ev.preventDefault();
-      // evidenziazione leggera (opzionale): aggiunge classe 'selected' al risultato
-      searchResultsContainer.querySelectorAll('.selected').forEach(n => n.classList.remove('selected'));
-      li.classList.add('selected');
-      // Porta la pagina al canvas per mostrare la mappa
-      if(typeof canvas !== 'undefined' && canvas && canvas.scrollIntoView){
-        try{ canvas.scrollIntoView({ behavior: 'smooth', block: 'center' }); }catch(e){ window.scrollTo({ top: canvas.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' }); }
-      }
-    });
-    li.appendChild(link);
+    
+    // Usiamo uno span anziché un tag 'a' per evitare stili di default (blu, sottolineatura)
+    const titleSpan = document.createElement('span');
+    titleSpan.className = 'result-title';
+    titleSpan.textContent = isola.nome;
+    
+    li.appendChild(titleSpan);
 
-    // anima la vista verso l'isola (porta prima la pagina al canvas)
+    // Gestione del click unificata sul <li>
     li.addEventListener('click', (ev) => {
       ev.preventDefault();
+      
+      // 1. Gestione classe 'selected'
+      searchResultsContainer.querySelectorAll('.selected').forEach(n => n.classList.remove('selected'));
+      li.classList.add('selected');
+
+      // 2. Scroll fluido verso il Canvas
       if(typeof canvas !== 'undefined' && canvas && canvas.scrollIntoView){
-        try{ canvas.scrollIntoView({ behavior: 'smooth', block: 'center' }); }catch(e){ window.scrollTo({ top: canvas.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' }); }
+        try { 
+          canvas.scrollIntoView({ behavior: 'smooth', block: 'center' }); 
+        } catch(e) { 
+          window.scrollTo({ 
+            top: canvas.getBoundingClientRect().top + window.scrollY - 80, 
+            behavior: 'smooth' 
+          }); 
+        }
       }
+
+      // 3. Animazione della visuale verso l'isola target
       muoviVisualeVersoDst(isola.id, 700, null, true);
     });
 
@@ -478,40 +487,45 @@ function renderSearchResults(results){
   }
 }
 
-// Unisce (union) i risultati delle tre ricerche e li passa al renderer
-function aggiornaRisultatiRicerca(){
-  const nomeVal = (searchInputNome.value || '').trim();
-  const tipoVal = (searchInputTipo.value || '').trim();
+// Filtra le isole combinando tutti i campi attivi (logica AND)
+function aggiornaRisultatiRicerca() {
+  const nomeVal = (searchInputNome.value || '').trim().toLowerCase();
+  const tipoVal = (searchInputTipo.value || '').trim().toLowerCase();
   const pericoloVal = (searchInputPericolo.value || '').trim();
+  const pericoloNum = parseInt(pericoloVal, 10);
 
-  const map = new Map();
-
-  if(nomeVal){
-    const queryNome = nomeVal.toLowerCase().trim();
-    const perIniziali = isole.filter(i => i.nome.toLowerCase().trim().startsWith(queryNome));
-    if(perIniziali.length > 0){ for(const i of perIniziali) map.set(i.id, i); }
-    const exact = ricercaIsolaPerNome(nomeVal);
-    if(exact) map.set(exact.id, exact);
-  }
-
-  if(tipoVal){
-    // ricercaIsolaPerTipo restituiva un singolo elemento; cerchiamo per occorrenza iniziale
-    const tipoLower = tipoVal.toLowerCase().trim();
-    const valPerIniziali = isole.filter(i => (i.tipo.toLowerCase().trim() || '').startsWith(tipoLower));
-    for(const i of valPerIniziali) map.set(i.id, i);
-    const exactTipo = ricercaIsolaPerTipo(tipoVal);
-    if(exactTipo) map.set(exactTipo.id, exactTipo);
-  }
-
-  if(pericoloVal !== ''){
-    const p = parseInt(pericoloVal);
-    if(!isNaN(p)){
-      const trovate = ricercaIsolaPerPericolo(p) || [];
-      for(const i of trovate) map.set(i.id, i);
+  // Filtriamo l'array partendo da tutte le isole
+  const risultati = isole.filter(isola => {
+    // 1. Filtro Nome (se valorizzato)
+    if (nomeVal !== '') {
+      const nomeIsola = (isola.nome || '').toLowerCase();
+      // Controlla se inizia con l'input (o usa .includes per cercare in qualsiasi punto)
+      if (!nomeIsola.startsWith(nomeVal)) {
+        return false; // Esclude l'isola se non passa il filtro nome
+      }
     }
-  }
 
-  const risultati = Array.from(map.values());
+    // 2. Filtro Tipo (se valorizzato)
+    if (tipoVal !== '') {
+      const tipoIsola = (isola.tipo || '').toLowerCase();
+      if (!tipoIsola.startsWith(tipoVal)) {
+        return false; // Esclude l'isola se non passa il filtro tipo
+      }
+    }
+
+   // 3. Filtro Pericolo (Mostra isole con pericolo >= a quello inserito)
+    if (pericoloVal !== '' && !isNaN(pericoloNum)) {
+      const pericoloIsola = pericoloEffettivo(isola); 
+
+      if (pericoloIsola < pericoloNum) {
+        return false; // Esclude le isole meno pericolose del valore richiesto
+      }
+    }
+
+    // Se ha passato tutti i filtri attivi, l'isola viene inclusa
+    return true;
+  });
+
   renderSearchResults(risultati);
 }
 

@@ -8,8 +8,15 @@
 
 ---
 
+![Immagine](Images/Screen3.png "Pannello Di Ricerca")
+
+---
 
 ![Preview](Images/Preview.gif)
+
+---
+
+![Preview-ricerca](Images/Preview_ricerca.gif)
 
 ---
 
@@ -32,6 +39,14 @@ Ho creato una simulazione personale del funzionamento del Log Pose usato in One 
 
 **Per modifiche:**
 - Fai un fork, clonalo in locale, modifica il codice, vai alla seziona sopra "How To Compile" per compilarlo e testarlo e infine apri una Pull Request. 
+
+**Aggiunte da fare:** 
+    **1.** Aggiungere una nuova variabile di tipo string o vettore di string nella struttura dati Isola, chiamata citazioni_iconiche, dove appunto rappresenta la/e citazione/i iconica/he fatte in un arco di quell'isola da un determinato personaggio.
+    **2.** Aggiungere gli archi narrativi. 
+    **3.** Aggiungere i personaggi coinvolti nell'isola e nell'arco narrativo.
+    **4.** Aggiungere per ogni isola i regni/villaggi/paesi interni ad essa.
+    **5.** Completare tutti i reparti e scrivere il livello di pericolo giusto.
+    **6.** In  `isola_dettagli.html` non rimettere quello che già c'è adesso, ma mettere un approfondimento testuale dell'isola, un vero e proprio testo descrittivo.
 
 ---
 
